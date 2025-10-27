@@ -11992,10 +11992,10 @@ textarea.form-control-lg {
 }
 body {
   background-image: url("/assets/images/Acceuill_Ecoride.png");
-  background-size: 200%;
+  background-size: 400%;
   background-repeat: no-repeat;
   background-position: top;
-  background-attachment: local;
+  background-attachment: fixed;
 }
 
 html {
@@ -12032,4 +12032,11 @@ p {
 .card .card-title {
   font-family: "Charger Eco", sans-serif;
   font-size: 20px;
+}
+
+nav {
+  background-image: url("/assets/svg/header_style.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
 }/*# sourceMappingURL=main.css.map */

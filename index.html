@@ -15,40 +15,38 @@
 <body>
     
     <header>
-        <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="/assets/svg/Logo_EcoRide.svg" alt="Eco-Ride" width="120" height="130">
-                </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-brand" href="#">
-                    <img src="/assets/svg/menu_header.svg"  width="30" height="50">
-                </span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link text-primary" tye="button" href="/">Accueil</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-primary" href="/Covoiturages">Covoiturages</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-primary" href="/Connexion">Connexion</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-primary" href="/Contact">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    
-                  </li>
-                  <li class="nav-item">
-                    
-                  </li>
-                </ul>
-              </div>
+      <nav class="navbar sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <img src="/assets/svg/Logo_EcoRide.svg" alt="Eco-Ride" width="75" height="72">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span><img src="/assets/svg/menu_header.svg"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header  text-primary">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-          </nav>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active text-secondary" aria-current="page" href="/">Acceuil</a>
+                </li>
+                 <li class="nav-item">
+                  <a class="nav-link active text-secondary" aria-current="page" href="/Covoiturages">Covoiturages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-secondary" aria-current="page" href="/Connexion">Connexion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-secondary" aria-current="page" href="/Contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
 
    
