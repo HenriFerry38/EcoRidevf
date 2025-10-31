@@ -9,6 +9,6 @@ $light: #EBEBEB;
 $font-family-sans-serif: "Charger Eco", sans-serif !default;
 $font-family-serif: "Encode Sans", sans-serif !default;
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
 
 // Then add additional custom code here

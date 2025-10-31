@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Charger Eco';
-    src: url('/font/ChargerEco/ChargerEco-14JB.otf') format('opentype');
-    src: url('/font/ChargerEco/ChargerEcoblack-BP28.otf') format('opentype');
-    src: url('/font/ChargerEco/ChargerEcoblackOblique-8YlJ.otf') format('opentype');
-    src: url('/font/ChargerEco/ChargerEcoblackOppositeOblique-YL14.otf') format('opentype');
-    src: url('/font/ChargerEco/ChargerEcobold-rGOL.otf') format('opentype');
-    src: url('/font/ChargerEco/ChargerEcoboldOblique-M84n.otf') format('opentype');
-    src: url('/font/ChargerEco/ChargerEcoOblique-R2E6.otf') format('opentype');
+    src: url('/public/font/ChargerEco/ChargerEco-14JB.otf') format('opentype');
+    src: url('/public/font/ChargerEco/ChargerEcoblack-BP28.otf') format('opentype');
+    src: url('/public/font/ChargerEco/ChargerEcoblackOblique-8YlJ.otf') format('opentype');
+    src: url('/public/font/ChargerEco/ChargerEcoblackOppositeOblique-YL14.otf') format('opentype');
+    src: url('/public/font/ChargerEco/ChargerEcobold-rGOL.otf') format('opentype');
+    src: url('/public/font/ChargerEco/ChargerEcoboldOblique-M84n.otf') format('opentype');
+    src: url('/public/font/ChargerEco/ChargerEcoOblique-R2E6.otf') format('opentype');
 }
 
 @import url("/node_modules/bootstrap-icons/font/bootstrap-icons.css");
@@ -15,7 +15,7 @@
 
 
 body{
-    background-image: url("/assets/images/Acceuill_Ecoride.png");
+    background-image: url("/public/assets/images/Acceuill_Ecoride.png");
     background-size: 400%;
     background-repeat: no-repeat;
     background-position: top;
@@ -29,7 +29,7 @@ html{
 }
 
 main{
-    margin-bottom: 80px;
+    margin-bottom: 270px;
 }
 
 footer.footer{
@@ -63,7 +63,7 @@ p{
 }
 
 nav{
-  background-image: url("/assets/svg/header_style.svg");
+  background-image: url("/public/assets/svg/header_style.svg");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
